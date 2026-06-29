@@ -1,0 +1,13 @@
+train: G:\project code january\YOLO_ROAD_SEGMEN\train\images
+val: G:\project code january\YOLO_ROAD_SEGMEN\valid\images
+test: G:\project code january\YOLO_ROAD_SEGMEN\test\images
+
+nc: 1
+names: ['Roads']
+
+roboflow:
+  workspace: lesley-natrop-zgywz
+  project: road-detection-segmentation
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lesley-natrop-zgywz/road-detection-segmentation/dataset/7
